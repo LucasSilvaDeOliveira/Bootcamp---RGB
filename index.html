@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Prático 1 - Modulo 1</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Trabalho Prático 1 - Modulo 1</h1>
+      <label>(R) Vermelho:</label>
+      <input id="redDial" type="range" min="0" max="255" value="0" oninput="inputValue()"/>
+      <input type="text" id="red" disabled>
+    </br>
+      <label>(G) Verde:</label>
+      <input id="greenDial" type="range" min="0" max="255" value="0" oninput="inputValue()"/>
+      <input type="text" id="green" disabled>
+      </br>
+      <label>(B) Azul:</label>
+      <input id="blueDial" type="range" min="0" max="255" value="0" oninput="inputValue()"/>
+      <input type="text" id="blue" disabled>
+      <div id="square"></div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
